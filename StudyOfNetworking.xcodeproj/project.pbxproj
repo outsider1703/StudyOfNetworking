@@ -3,29 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BEB2C5226C5AF8D37208053 /* Pods_StudyOfNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC4224B121D59D71CF421CB /* Pods_StudyOfNetworking.framework */; };
 		FA6469E925081FD6002F5455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6469E825081FD6002F5455 /* AppDelegate.swift */; };
-		FA6469EB25081FD6002F5455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6469EA25081FD6002F5455 /* SceneDelegate.swift */; };
-		FA6469ED25081FD6002F5455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6469EC25081FD6002F5455 /* ViewController.swift */; };
-		FA6469F025081FD6002F5455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6469EE25081FD6002F5455 /* Main.storyboard */; };
+		FA6469ED25081FD6002F5455 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6469EC25081FD6002F5455 /* MovieViewController.swift */; };
 		FA6469F325081FD6002F5455 /* StudyOfNetworking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA6469F125081FD6002F5455 /* StudyOfNetworking.xcdatamodeld */; };
 		FA6469F525081FD9002F5455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6469F425081FD9002F5455 /* Assets.xcassets */; };
 		FA6469F825081FD9002F5455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6469F625081FD9002F5455 /* LaunchScreen.storyboard */; };
+		FAF68C0B250AC360003F5A80 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF68C0A250AC360003F5A80 /* Model.swift */; };
+		FAF68C0D250AD85F003F5A80 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF68C0C250AD85F003F5A80 /* ApiService.swift */; };
+		FAF68C0F250C0096003F5A80 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF68C0E250C0096003F5A80 /* MovieViewModel.swift */; };
+		FAF68C13250C081A003F5A80 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF68C12250C081A003F5A80 /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EDDE6F2648E26ECA41E80E1 /* Pods-StudyOfNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyOfNetworking.release.xcconfig"; path = "Target Support Files/Pods-StudyOfNetworking/Pods-StudyOfNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		2FC4224B121D59D71CF421CB /* Pods_StudyOfNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyOfNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD25797DB8D722989EBF05 /* Pods-StudyOfNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyOfNetworking.debug.xcconfig"; path = "Target Support Files/Pods-StudyOfNetworking/Pods-StudyOfNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		FA6469E525081FD6002F5455 /* StudyOfNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyOfNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6469E825081FD6002F5455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA6469EA25081FD6002F5455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA6469EC25081FD6002F5455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA6469EF25081FD6002F5455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6469EC25081FD6002F5455 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		FA6469F225081FD6002F5455 /* StudyOfNetworking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyOfNetworking.xcdatamodel; sourceTree = "<group>"; };
 		FA6469F425081FD9002F5455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6469F725081FD9002F5455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6469F925081FD9002F5455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF68C0A250AC360003F5A80 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FAF68C0C250AD85F003F5A80 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		FAF68C0E250C0096003F5A80 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		FAF68C12250C081A003F5A80 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BEB2C5226C5AF8D37208053 /* Pods_StudyOfNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11C4F493ECBA4E5AECDF4AFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65DD25797DB8D722989EBF05 /* Pods-StudyOfNetworking.debug.xcconfig */,
+				1EDDE6F2648E26ECA41E80E1 /* Pods-StudyOfNetworking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DFB201B8658C3261DEB6975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FC4224B121D59D71CF421CB /* Pods_StudyOfNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3BC9CC25101A0700C0CA54 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAF68C0C250AD85F003F5A80 /* ApiService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA3BC9CD25101A1400C0CA54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA6469EC25081FD6002F5455 /* MovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA3BC9CE25101A1E00C0CA54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAF68C0E250C0096003F5A80 /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA3BC9CF25101A2900C0CA54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAF68C12250C081A003F5A80 /* MovieCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3BC9D025101A3400C0CA54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAF68C0A250AC360003F5A80 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FA6469DC25081FD6002F5455 = {
 			isa = PBXGroup;
 			children = (
 				FA6469E725081FD6002F5455 /* StudyOfNetworking */,
 				FA6469E625081FD6002F5455 /* Products */,
+				11C4F493ECBA4E5AECDF4AFC /* Pods */,
+				5DFB201B8658C3261DEB6975 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +126,12 @@
 		FA6469E725081FD6002F5455 /* StudyOfNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				FA3BC9D025101A3400C0CA54 /* Model */,
+				FA3BC9CF25101A2900C0CA54 /* View */,
+				FA3BC9CE25101A1E00C0CA54 /* ViewModel */,
+				FA3BC9CD25101A1400C0CA54 /* Controller */,
+				FA3BC9CC25101A0700C0CA54 /* Networking */,
 				FA6469E825081FD6002F5455 /* AppDelegate.swift */,
-				FA6469EA25081FD6002F5455 /* SceneDelegate.swift */,
-				FA6469EC25081FD6002F5455 /* ViewController.swift */,
-				FA6469EE25081FD6002F5455 /* Main.storyboard */,
 				FA6469F425081FD9002F5455 /* Assets.xcassets */,
 				FA6469F625081FD9002F5455 /* LaunchScreen.storyboard */,
 				FA6469F925081FD9002F5455 /* Info.plist */,
@@ -77,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA6469FC25081FD9002F5455 /* Build configuration list for PBXNativeTarget "StudyOfNetworking" */;
 			buildPhases = (
+				4B4433789D91B5DDA738ED16 /* [CP] Check Pods Manifest.lock */,
 				FA6469E125081FD6002F5455 /* Sources */,
 				FA6469E225081FD6002F5455 /* Frameworks */,
 				FA6469E325081FD6002F5455 /* Resources */,
+				66F9C3A6E98FC3C1717290E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +202,71 @@
 			files = (
 				FA6469F825081FD9002F5455 /* LaunchScreen.storyboard in Resources */,
 				FA6469F525081FD9002F5455 /* Assets.xcassets in Resources */,
-				FA6469F025081FD6002F5455 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B4433789D91B5DDA738ED16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyOfNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F9C3A6E98FC3C1717290E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyOfNetworking/Pods-StudyOfNetworking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyOfNetworking/Pods-StudyOfNetworking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyOfNetworking/Pods-StudyOfNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA6469E125081FD6002F5455 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF68C0B250AC360003F5A80 /* Model.swift in Sources */,
 				FA6469F325081FD6002F5455 /* StudyOfNetworking.xcdatamodeld in Sources */,
-				FA6469ED25081FD6002F5455 /* ViewController.swift in Sources */,
+				FAF68C0D250AD85F003F5A80 /* ApiService.swift in Sources */,
+				FA6469ED25081FD6002F5455 /* MovieViewController.swift in Sources */,
 				FA6469E925081FD6002F5455 /* AppDelegate.swift in Sources */,
-				FA6469EB25081FD6002F5455 /* SceneDelegate.swift in Sources */,
+				FAF68C0F250C0096003F5A80 /* MovieViewModel.swift in Sources */,
+				FAF68C13250C081A003F5A80 /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA6469EE25081FD6002F5455 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA6469EF25081FD6002F5455 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA6469F625081FD9002F5455 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +394,7 @@
 		};
 		FA6469FD25081FD9002F5455 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DD25797DB8D722989EBF05 /* Pods-StudyOfNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +412,7 @@
 		};
 		FA6469FE25081FD9002F5455 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDDE6F2648E26ECA41E80E1 /* Pods-StudyOfNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
